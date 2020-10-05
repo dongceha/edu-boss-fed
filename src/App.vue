@@ -1,9 +1,18 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <router-view/>
 </template>
+<script lang="ts">
+import Vue from 'vue'
+import request from '@/utils/request'
 
-<style lang="less" scoped>
+export default Vue.extend({
+  name: 'App'
+})
 
+</script>
+<style lang="less">
+* {
+  padding: 0;
+  margin: 0;
+}
 </style>
